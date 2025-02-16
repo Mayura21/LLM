@@ -1,0 +1,6 @@
+jupyter
+ipykernel
+numpy
+streamlit
+scikit-learn
+nltk
