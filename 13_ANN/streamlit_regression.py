@@ -6,16 +6,16 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pickle
 
 # Load trained model
-model = tf.keras.models.load_model('regression_model.h5')
+model = tf.keras.models.load_model('13_ANN/regression_model.h5')
 
 # Load encoder and scaler
-with open('label_encoder_gender_.pkl', 'rb') as file:
+with open('13_ANN/label_encoder_gender_.pkl', 'rb') as file:
     label_encoder_gender = pickle.load(file)
 
-with open('scaler_.pkl', 'rb') as file:
+with open('13_ANN/scaler_.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
-with open('onehot_encoder_geography_.pkl', 'rb') as file:
+with open('13_ANN/onehot_encoder_geography_.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
 # Streamlit app
