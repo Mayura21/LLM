@@ -15,7 +15,7 @@ with open('13_ANN/label_encoder_gender_.pkl', 'rb') as file:
 with open('13_ANN/scaler_.pkl', 'rb') as file:
     scaler = pickle.load(file)
 
-with open('13_ANN/onehot_encoder_geography_.pkl', 'rb') as file:
+with open('13_ANN/onehot_encoder_geo_.pkl', 'rb') as file:
     onehot_encoder_geo = pickle.load(file)
 
 # Streamlit app
