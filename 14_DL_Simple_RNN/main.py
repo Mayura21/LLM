@@ -9,7 +9,11 @@ word_index = imdb.get_word_index()
 reverse_word_index = {value: key for key, value in word_index.items()}
 
 # Load model
+<<<<<<< HEAD
+model = load_model('14_DL_Simple_RNN/fixed_model.h5')
+=======
 model = load_model('14_DL_Simple_RNN/simple_rnn_imdb.h5', compile=False)
+>>>>>>> main
 
 # 2. Helper function to decode the review
 def decode_review(encoded_review):
